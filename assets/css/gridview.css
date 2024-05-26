@@ -1,0 +1,9 @@
+.gridview{
+    text-align: left; display: grid; grid-template-columns: auto auto;  gap: 20px;
+}
+
+@media (min-width: 600px) {
+    .gridview{
+        text-align: center; display: grid; grid-template-columns:auto;  gap: 20px;
+    }
+}
